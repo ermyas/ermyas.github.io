@@ -91,33 +91,31 @@ Awards
 ====
 -----------------------
 
-- IBM A-Level Accomplishment Award for business impact through Client Engagement
+- IBM A-Level Accomplishment Award for business impact through Client Engagement (2016)
 
-- IBM A-Level Accomplishment Award for business impact through innovation in tools and process
+- IBM A-Level Accomplishment Award for business impact through innovation in tools and process (2016)
 
-- IBM Outstanding Technical Achievement Award
+- IBM Outstanding Technical Achievement Award (2016)
 
-- IBM Research Division Award
+- IBM Research Division Award (2016)
 
-- IBM Open Source Award For Significant Opensource Contributions to CouchDB and Cloudant
+- IBM Open Source Award For Significant Opensource Contributions to CouchDB and Cloudant (2016)
 
-- Third-prize winner of Startup Weekend Melbourne
+- Third-prize winner of Startup Weekend Melbourne (2014)
 
-- First-prize winner of IBM MobileFirst Hackathon
+- First-prize winner of IBM MobileFirst Hackathon (2014)
 
-- Letter of Recognition for Outstanding PHD Thesis Assessment result
+- Letter of Recognition for Outstanding PHD Thesis Assessment result (2012)
 
-- Third Pace in Melbourne Startup Weekend competition
+- RMIT University International Research Student Scholarship (RUIRS) (Full Scholarship for PhD) (2008 - 2012)
 
-- RMIT University International Research Student Scholarship (RUIRS) (Full Scholarship for PhD) 2008 - 2012
+- Best Presentation Award – RMIT University Computer Science Research Students’ Conference (2010)
 
-- RMIT University Graduation with Highest Distinction Award
+- Best Paper Award – RMIT University Computer Science Research Students’ Conference (2009)
 
-- Best Presentation Award – RMIT University Computer Science Research Students’ Conference 2010
+- RMIT University Graduation with Highest Distinction Award (2008)
 
-- Best Paper Award – RMIT University Computer Science Research Students’ Conference 2009
-
-- Highest Cumulative GPA Award - RMIT University 2007
+- Highest Cumulative GPA Award - RMIT University (2007)
 
 
 Open source
