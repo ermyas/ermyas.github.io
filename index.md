@@ -80,7 +80,7 @@ Skills
 
 - *Architecture:* Micro-services, Evolutionary Architectures, Domain Driven Design, Lambda Architectures, Serverless, CQRS, Event Driven Architectures
 
-- *Databases:* Relational (Postgres, MySQL, SQLite) and NoSQL (CouchDb, MongoDB)
+- *Databases:* CouchDb, Postgres, MySQL, MongoDB, SQLite
 
 - *Cloud Computing:* Amazon EC2, Bluemix, Softlayer, Google AppEngine
 
