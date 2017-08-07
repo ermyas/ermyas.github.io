@@ -25,7 +25,7 @@ Experience
 ====
 -----------------------
 
-### IBM Research [2013 - Current]
+### IBM Research [Mar. 2013 - *Current*]
 
 **Manager Research Scientist - Blockchain Solutions**
 
@@ -33,10 +33,10 @@ Experience
   - 2014 – 2015: Led a team of researchers and software engineers towards designing and developing a number of novel research prototypes in the healthcare, life-sciences, and financial services spaces.
   - 2013 – 2014: Led a team of researchers and software engineers towards designing, and developing a number of systems for modelling and predicting natural disasters and population evacuation scenarios.
 
-### RMIT University [Jun. 2008 - Feb 2013]
+### RMIT University [Jun. 2008 - Feb. 2013]
 Sessional Lecturer & Head Teaching Assistant *(part-time)*
 
-### PerSys Solutions [Aug. 2012 - Feb 2013]
+### PerSys Solutions [Aug. 2012 - Feb. 2013]
 Lead Software Engineer
 
 ### Komposite Systems [Jul. 2007 - Mar. 2008]
