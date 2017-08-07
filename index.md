@@ -172,7 +172,7 @@ Misc. Projects
 ====
 -----------------------
 
-- [Jember Calendar Mobile  App](https://play.google.com/store/apps/details?id=com.lucy.ethiopian.calendar&hl=en)
+- [Jember Calendar Mobile  App](https://play.google.com/store/apps/details?id=com.lucy.ethiopian.calendar&hl=en) (2013)
 
 - PhD Student Co-supervisor at RMIT University (2012-*current*)
 
