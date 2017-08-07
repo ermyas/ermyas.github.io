@@ -27,7 +27,7 @@ Experience
 
 ### IBM Research [Mar. 2013 - *Current*]
 
-**Manager Research Scientist - Blockchain Solutions**
+**Research Manager**
 
   - 2015 – Today: Currently leading a team of researchers who are focused on developing a number of innovative Blockchain based solutions for the financial services sector.
   - 2014 – 2015: Led a team of researchers and software engineers towards designing and developing a number of novel research prototypes in the healthcare, life-sciences, and financial services spaces.
