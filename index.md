@@ -139,7 +139,7 @@ Patents
 ====
 -----------------------
 
-- Filed Patents: 40
+- Filed Patents: 20
 
 - Issued Patents: 4
 
