@@ -28,7 +28,7 @@ Experience
 ====
 -----------------------
 
-## IBM Research [ 2013 - Current ]
+## IBM Research [2013 - Current]
 
 **Manager Research Scientist - Blockchain Solutions**
 
