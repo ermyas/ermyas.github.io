@@ -18,7 +18,7 @@ Education
   - **Thesis:** [Improving the Efficiency and Efficacy of Adaptive Computation Offloading in Pervasive Computing Environments](https://researchbank.rmit.edu.au/view/rmit:160267)
   - **Award:** Letter of Recognition for Outstanding Thesis Assessment
 
-## B.Sc. in Computer Science and Information Technology
+## B.Sc. in Computer Science
   *[RMIT University](https://www.rmit.edu.au/)*
 
   - **GPA:** 4.0
@@ -36,19 +36,19 @@ Experience
   - 2014 – 2015: Led a team of researchers and software engineers towards designing and developing a number of novel research prototypes in the healthcare, life-sciences, and financial services spaces.
   - 2013 – 2014: Led a team of researchers and software engineers towards designing, and developing a number of systems for modelling and predicting natural disasters and population evacuation scenarios.
 
-## RMIT University [ Jun. 2008 - Feb 2013 ]
+## RMIT University [Jun. 2008 - Feb 2013]
 **Sessional Lecturer & Head Teaching Assistant** *(part-time)*
 
-## PerSys Software Solutions [ Aug. 2012 - Feb 2013 ]
+## PerSys Solutions [Aug. 2012 - Feb 2013]
 **Lead Software Engineer**
 
-## Komposite Systems [ Jul. 2007 - Mar. 2008 ]
+## Komposite Systems [Jul. 2007 - Mar. 2008]
 **Lead Software Engineer** *(part-time)*
 
-## Amest Santim Systems [ Dec. 2006 - Mar. 2008 ]
+## Amest Santim Systems [Dec. 2006 - Mar. 2008]
 **Software Engineer** *(part-time)*
 
-## Cybersoft Software Systems [ Jul. 2006 - Jan. 2007 ]
+## Cybersoft Systems [Jul. 2006 - Jan. 2007]
 **Junior Developer** *(part-time)*
 
 Interests
