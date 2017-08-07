@@ -3,22 +3,19 @@
 ## Edit theme's home layout instead if you wanna make some changes
 ## See: https://jekyllrb.com/docs/themes/##overriding-theme-defaults
 layout: default
+title: Curriculum Vitae
 ---
-Ermyas Abebe
-===
-**Research Manager at IBM Research, Australia**
-
 Education
 ====
 -----------------------
 
-## Ph.D. in Computer Science
+### Ph.D. in Computer Science
   *[RMIT University](https://www.rmit.edu.au/)*
 
   - **Thesis:** [Improving the Efficiency and Efficacy of Adaptive Computation Offloading in Pervasive Computing Environments](https://researchbank.rmit.edu.au/view/rmit:160267)
   - **Award:** Letter of Recognition for Outstanding Thesis Assessment
 
-## B.Sc. in Computer Science
+### B.Sc. in Computer Science
   *[RMIT University](https://www.rmit.edu.au/)*
 
   - **GPA:** 4.0
@@ -28,7 +25,7 @@ Experience
 ====
 -----------------------
 
-## IBM Research [2013 - Current]
+### IBM Research [2013 - Current]
 
 **Manager Research Scientist - Blockchain Solutions**
 
@@ -36,20 +33,20 @@ Experience
   - 2014 – 2015: Led a team of researchers and software engineers towards designing and developing a number of novel research prototypes in the healthcare, life-sciences, and financial services spaces.
   - 2013 – 2014: Led a team of researchers and software engineers towards designing, and developing a number of systems for modelling and predicting natural disasters and population evacuation scenarios.
 
-## RMIT University [Jun. 2008 - Feb 2013]
-**Sessional Lecturer & Head Teaching Assistant** *(part-time)*
+### RMIT University [Jun. 2008 - Feb 2013]
+Sessional Lecturer & Head Teaching Assistant *(part-time)*
 
-## PerSys Solutions [Aug. 2012 - Feb 2013]
-**Lead Software Engineer**
+### PerSys Solutions [Aug. 2012 - Feb 2013]
+Lead Software Engineer
 
-## Komposite Systems [Jul. 2007 - Mar. 2008]
-**Lead Software Engineer** *(part-time)*
+### Komposite Systems [Jul. 2007 - Mar. 2008]
+Lead Software Engineer *(part-time)*
 
-## Amest Santim Systems [Dec. 2006 - Mar. 2008]
-**Software Engineer** *(part-time)*
+### Amest Santim Systems [Dec. 2006 - Mar. 2008]
+Software Engineer *(part-time)*
 
-## Cybersoft Systems [Jul. 2006 - Jan. 2007]
-**Junior Developer** *(part-time)*
+### Cybersoft Systems [Jul. 2006 - Jan. 2007]
+Junior Developer *(part-time)*
 
 Interests
 ===
