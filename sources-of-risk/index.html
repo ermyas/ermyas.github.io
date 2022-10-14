@@ -51,23 +51,25 @@
               <ul class="current">
                 <li class="toctree-l1 current"><a class="reference internal current" href="./">Sources of Risk</a>
     <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#network-risk">Network Risk</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#protocol-architecture-risk">Protocol Architecture Risk</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#messaging-protocol">Messaging Protocol</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#coordination-protocols">Coordination Protocols</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#token-bridges">Token Bridges</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#liquidity-network">Liquidity Network</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#protocol-implementation-risk">Protocol Implementation Risk</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#protocol-operation-risk">Protocol Operation Risk</a>
+    </li>
     </ul>
-                </li>
-              </ul>
-              <ul>
-                <li class="toctree-l1"><a class="" href="..">Network Risk</a>
-                </li>
-              </ul>
-              <ul>
-                <li class="toctree-l1"><a class="" href="..">Protocol Architecture Risk</a>
-                </li>
-              </ul>
-              <ul>
-                <li class="toctree-l1"><a class="" href="..">Protocol Implementation Risk</a>
-                </li>
-              </ul>
-              <ul>
-                <li class="toctree-l1"><a class="" href="..">Protocol Operational Risk</a>
                 </li>
               </ul>
       </div>
@@ -118,15 +120,23 @@
 <p><strong>Protocol Operation Risk</strong>: The operation of a cross-chain bridge involves the management of various components, potentially by distinct actors. Such activities could include the upgrade and management of bridge smart contracts and the operation of various off-chain systems (e.g. external validator nodes). Having robust, secure, decentralized, and transparent mechanisms, processes, and policies for managing such systems is crucial to ensuring the security of cross-chain bridges.</p>
 </li>
 </ul>
-<h1 id="network-risk">Network Risk</h1>
+<h2 id="network-risk">Network Risk</h2>
 <p>TBA</p>
-<h1 id="protocol-architecture-risk">Protocol Architecture Risk</h1>
+<h2 id="protocol-architecture-risk">Protocol Architecture Risk</h2>
 <p>Protocol architecture risks relate to the design of the cross-chain communications protocol. The major consideration is the communications protocol trust assumptions. However, other more detailed design considerations can impose important risks.</p>
 <h3 id="messaging-protocol">Messaging Protocol</h3>
 <p>A cross-chain messaging protocol is responsible for communicating state transition events from applications on one network to applications on another. It should guarantee that these events are valid according to the canonical ledger state of the source network (safety) and ensure that all relevant state transitions are eventually communicated to their destination network (liveness).</p>
 <p>From the perspective of safety, an ideal message protocol construction would introduce no additional trust assumptions beyond what is assumed about the networks themselves. This would involve a destination network independently being able to verify that a) a state transition that resulted in a given message is valid according to the state transition rules of the source network and b) that the message has been finalized on the network as per the network consensus rules of the source.</p>
-<h1 id="protocol-implementation-risk">Protocol Implementation Risk</h1>
-<h1 id="protocol-operation-risk">Protocol Operation Risk</h1>
+<h3 id="coordination-protocols">Coordination Protocols</h3>
+<p>...</p>
+<h3 id="token-bridges">Token Bridges</h3>
+<p>...</p>
+<h3 id="liquidity-network">Liquidity Network</h3>
+<p>...</p>
+<h2 id="protocol-implementation-risk">Protocol Implementation Risk</h2>
+<p>...</p>
+<h2 id="protocol-operation-risk">Protocol Operation Risk</h2>
+<p>...</p>
               
             </div>
           </div><footer>
