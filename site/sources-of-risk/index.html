@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="shortcut icon" href="../img/favicon.ico" />
+    <title>Sources of Risk - Crosschain Risk Framework</title>
+    <link rel="stylesheet" href="../css/theme.css" />
+    <link rel="stylesheet" href="../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Sources of Risk";
+        var mkdocs_page_input_path = "sources-of-risk.md";
+        var mkdocs_page_url = null;
+      </script>
+    
+    <script src="../js/jquery-3.6.0.min.js" defer></script>
+    <!--[if lt IE 9]>
+      <script src="../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+      <script>hljs.initHighlightingOnLoad();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href=".." class="icon icon-home"> Crosschain Risk Framework
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="..">Introduction</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../stakeholders/">Stakeholders of Crosschain</a>
+                </li>
+              </ul>
+              <ul class="current">
+                <li class="toctree-l1 current"><a class="reference internal current" href="./">Sources of Risk</a>
+    <ul class="current">
+    </ul>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="" href="..">Network Risk</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="" href="..">Protocol Architecture Risk</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="" href="..">Protocol Implementation Risk</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="" href="..">Protocol Operational Risk</a>
+                </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="..">Crosschain Risk Framework</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href=".." class="icon icon-home" alt="Docs"></a> &raquo;</li>
+      <li>Sources of Risk</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="sources-of-risk">Sources of Risk</h1>
+<p>At its essence, cross-chain protocols create a dependency relationship between networks. This dependency could be <em>uni-directional</em> or <em>bi-directional</em>, <em>transient</em> or <em>persistent</em>. The core security requirement of cross-chain infrastructure is to guarantee two key properties:</p>
+<ol>
+<li>
+<p>The correct representation of the state of one network to another in a complete and timely manner.</p>
+</li>
+<li>
+<p>The preservation of the integrity and validity of all state changes in a network that result from the communication of state in another e.g. ensuring any dependency invariants across chains are preserved (e.g. wrapped asset supply matches native asset supply) or events resulting from forks and reorgs of underlying networks.</p>
+</li>
+</ol>
+<p>Broadly, there are four key sources of risk in cross-chain infrastructure:</p>
+<ul>
+<li>
+<p><strong>Network Consensus Risk</strong>: One of the core security assumptions of cross-chain communication is that the state communicated from one network to another is valid according to the consensus rules of the underlying network. Failures in the safety or liveness properties of an underlying network can thus risk creating inconsistent state changes across chains that cannot be reconciled. Such risk is often beyond the control boundary of cross-chain infrastructure and likely represents a fundamental security limitation to bridging across independent sovereign chains. However, risk controls can be enacted to limit the magnitude of such failures (e.g. containing and isolating the impact of failures in any single network).</p>
+</li>
+<li>
+<p><strong>Protocol Architecture Risk</strong>: At a base level, a cross-chain protocol needs to guarantee two security properties 1) safety, which is that invalid network states are never communicated across chains and 2) liveness, that all cross-chain messages from one chain to another are eventually delivered. The security assumptions and conditions under which the architecture of a protocol guarantees these properties can be a source of significant risk. Architectures that introduce new trusted parties often offer weaker guarantees than those that solely rely on the security of the underlying networks. This category encompasses not just the architecture of base layer messaging protocols, but also the core design assumptions of protocols built atop.  </p>
+</li>
+<li>
+<p><strong>Protocol Implementation Risk</strong>: Cross-chain protocols are complex systems with various components spanning multiple ecosystems. The implementation of such software and the low-level design decisions towards this end can be a source of risk. This often manifests in the form of software bugs (logic bugs, dependency vulnerabilities, etc.). This has been a predominant cause of the bridge failures experienced over the last couple of years.</p>
+</li>
+<li>
+<p><strong>Protocol Operation Risk</strong>: The operation of a cross-chain bridge involves the management of various components, potentially by distinct actors. Such activities could include the upgrade and management of bridge smart contracts and the operation of various off-chain systems (e.g. external validator nodes). Having robust, secure, decentralized, and transparent mechanisms, processes, and policies for managing such systems is crucial to ensuring the security of cross-chain bridges.</p>
+</li>
+</ul>
+<h1 id="network-risk">Network Risk</h1>
+<p>TBA</p>
+<h1 id="protocol-architecture-risk">Protocol Architecture Risk</h1>
+<p>Protocol architecture risks relate to the design of the cross-chain communications protocol. The major consideration is the communications protocol trust assumptions. However, other more detailed design considerations can impose important risks.</p>
+<h3 id="messaging-protocol">Messaging Protocol</h3>
+<p>A cross-chain messaging protocol is responsible for communicating state transition events from applications on one network to applications on another. It should guarantee that these events are valid according to the canonical ledger state of the source network (safety) and ensure that all relevant state transitions are eventually communicated to their destination network (liveness).</p>
+<p>From the perspective of safety, an ideal message protocol construction would introduce no additional trust assumptions beyond what is assumed about the networks themselves. This would involve a destination network independently being able to verify that a) a state transition that resulted in a given message is valid according to the state transition rules of the source network and b) that the message has been finalized on the network as per the network consensus rules of the source.</p>
+<h1 id="protocol-implementation-risk">Protocol Implementation Risk</h1>
+<h1 id="protocol-operation-risk">Protocol Operation Risk</h1>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../stakeholders/" class="btn btn-neutral float-left" title="Stakeholders of Crosschain"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="../stakeholders/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+  </span>
+</div>
+    <script>var base_url = '..';</script>
+    <script src="../js/theme_extra.js" defer></script>
+    <script src="../js/theme.js" defer></script>
+      <script src="../search/main.js" defer></script>
+    <script defer>
+        window.onload = function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        };
+    </script>
+
+</body>
+</html>
