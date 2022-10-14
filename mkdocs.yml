@@ -1,2 +1,11 @@
-site_name: My Docs
+site_name: Crosschain Risk Framework
 theme: readthedocs
+nav:
+  - Introduction: "index.md"
+  - Stakeholders of Crosschain: "stakeholders.md"
+  - Sources of Risk: "sources-of-risk.md"
+  - Network Risk: ""
+  - Protocol Architecture Risk: ""
+  - Protocol Implementation Risk: ""
+  - Protocol Operational Risk: ""
+  
