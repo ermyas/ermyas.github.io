@@ -1,0 +1,6 @@
+site_name: Crosschain Risk Framework
+theme: material
+nav:
+  - Introduction: "index.md"
+  - Stakeholders of Crosschain: "stakeholders.md"
+  - Sources of Risk: "sources-of-risk.md"
